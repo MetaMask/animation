@@ -1,0 +1,38 @@
+{
+  "name": "open-simplex-noise",
+  "version": "2.5.0",
+  "description": "OpenSimplex noise for TypeScript/JavaScript",
+  "keywords": [
+    "noise",
+    "open-simplex-noise",
+    "procedural-generation",
+    "simplex-noise"
+  ],
+  "homepage": "https://github.com/joshforisha/open-simplex-noise-js#readme",
+  "author": "Josh Forisha <josh@forisha.com>",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshforisha/open-simplex-noise-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshforisha/open-simplex-noise-js/issues"
+  },
+  "contributors": [
+    "Florian Völker <Neirolf2030@web.de>"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "main": "lib/mod.js",
+  "types": "lib/mod.d.ts",
+  "scripts": {
+    "compile": "tsc && denoify",
+    "test": "tsc --noEmit && deno test deno_lib",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "denoify": "^0.6.5",
+    "typescript": "^4.2.4"
+  }
+}
