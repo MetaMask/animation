@@ -15,7 +15,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "cdt2d": "^1.0.0",
-    "esbuild": "^0.14.48",
+    "esbuild": "^0.25.0",
     "gl-matrix": "^3.4.3",
     "open-simplex-noise": "^2.5.0",
     "ray-plane-intersection": "^1.0.0",
